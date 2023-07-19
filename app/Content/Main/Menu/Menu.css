@@ -1,0 +1,39 @@
+:root{
+    --PAD:14px
+}
+.Menu-bar-wrapper{
+    background-color: #E7E7E7;
+    border: 2px solid F4F4F4;
+    border-radius: 2%;
+}
+/* ICONS */
+.Bar{
+    float: right;
+    padding:    9px 13px 0px 0px ;
+}
+.magnifying-glass{
+    font-size: 14px;
+    float: left;
+}
+
+/* ICONS END */
+
+/* inputs */
+.InputSearch{
+    border: none;
+    width: 85%;
+    font-size: 16px;
+}
+
+
+.InputSearch:focus{
+    border: 2px solid rgb(202, 195, 195);
+    outline: none;
+}
+
+.search-wrapper{
+    /* remember to add this padding to all tags */
+    padding-left: var(--PAD);
+    border: 1px solid blue;
+    height: 5em;
+}

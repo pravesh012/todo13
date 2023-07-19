@@ -1,0 +1,17 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+}
+.Main-content{
+    background-color:white;
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        max-width: 716px;
+        margin: 0px 10% 0px 10%;
+        border: 3px solid white;
+        border-radius: 2%;
+        height: 67vh;
+}
+
+
